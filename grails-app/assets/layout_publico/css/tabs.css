@@ -1,0 +1,319 @@
+/* Default tab style */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-fussxq');
+	src:url('../fonts/icomoon.eot?#iefix-fussxq') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-fussxq') format('woff'),
+		url('../fonts/icomoon.ttf?-fussxq') format('truetype'),
+		url('../fonts/icomoon.svg?-fussxq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.tabs {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+/* Nav */
+.tabs nav {
+	text-align: center;
+}
+
+.tabs nav ul {
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1170px;
+	list-style: none;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+.tabs nav ul li {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 0;
+	text-align: center;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.tabs nav a {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	line-height: 1.5 !important;
+}
+
+.tabs nav a span {
+	vertical-align: middle;
+	font-size: 0.75em;
+}
+
+.tabs nav li.tab-current a {
+	color: #74777b;
+}
+
+.tabs nav a:focus {
+	outline: none;
+}
+
+
+
+/* Icons */
+
+
+.icon::before {
+	z-index: 10;
+	display: inline-block;
+	margin: 0 0.4em 0 0;
+	vertical-align: middle;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 1.3em;
+	font-family: 'icomoon';
+	line-height: 1;
+	speak: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-home:before {
+	content: "\e605";
+	font-size: 60px;
+}
+.icon-crecimiento:before {
+	content: "\e600";
+	font-size: 60px;
+}
+.icon-crecimiento2:before {
+	content: "\e600";
+	font-size: 20px;
+}
+.icon-desarrollo:before {
+	content: "\e601";
+	font-size: 60px;
+}
+.icon-desarrollo2:before {
+	content: "\e601";
+	font-size: 20px;
+}
+
+.icon-estado:before {
+	content: "\e602";
+	font-size: 60px;
+}
+.icon-estado2:before {
+	content: "\e602";
+	font-size: 20px;
+}
+
+.icon-politicas:before {
+	content: "\e603";
+	font-size: 60px;
+}
+.icon-politicas2:before {
+	content: "\e603";
+	font-size: 20px;
+}
+
+.icon-gobierno:before {
+	content: "\e604";
+	font-size: 60px;
+}
+.icon-gobierno2:before {
+	content: "\e604";
+	font-size: 20px;
+}
+
+/* Content */
+.content-wrap {
+	position: relative;
+}
+
+.content-wrap section {
+	display: none;
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 1200px;
+	text-align: center;
+}
+
+.content-wrap section.content-current {
+	display: block;
+}
+
+.content-wrap section p {
+	margin: 0;
+	padding: 0.75em 0;
+	color: rgba(40,44,42,0.05);
+	font-weight: 900;
+	font-size: 4em;
+	line-height: 1;
+}
+
+/* Fallback */
+.no-js .content-wrap section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.no-flexbox nav ul {
+	display: block;
+}
+
+.no-flexbox nav ul li {
+	min-width: 15%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 58em) {
+	.tabs nav a.icon span {
+		display: none;
+	}
+	.tabs nav a:before {
+		margin-right: 0;
+	}
+}
+
+/* Accordion */
+.accordioncenter {
+	margin: 0 auto;
+}
+.contenedoraccordion {
+	width: 1170px;
+	background-image: url('img/back_tabs.jpg');
+	background-repeat: repeat-x;
+	margin-top: 0px;
+	margin: 0 auto;
+}
+.margentopaccordion {
+	margin-top: 50px;
+}
+/* Item Crecimiento */
+
+.list-group-item-crecimiento {
+	background-color: #2277b9 !important;
+	text-align: left;
+}
+a.list-group-item-crecimiento {
+	color: #fff !important;
+	text-align: left;
+}
+.item-crecimiento a{
+	color: #2277b9 !important;
+	font-weight: bold;
+}
+/*Item Desarrollo */
+
+.list-group-item-desarrollo {
+	background-color: #8f2d8c !important;
+	text-align: left;
+}
+a.list-group-item-desarrollo {
+	color: #fff !important;
+	text-align: left;
+}
+.item-desarrollo a{
+	color: #8f2d8c !important;
+	font-weight: bold;
+}
+/*Item Gobierno */
+
+.list-group-item-gobierno {
+	background-color: #f49232 !important;
+	text-align: left;
+}
+a.list-group-item-gobierno {
+	color: #fff !important;
+	text-align: left;
+}
+.item-gobierno a{
+	color: #f49232 !important;
+	font-weight: bold;
+}
+/*Item Politicas */
+
+.list-group-item-politicas {
+	background-color: #0c6a55 !important;
+	text-align: left;
+}
+a.list-group-item-politicas {
+	color: #fff !important;
+	text-align: left;
+}
+.item-politicas a{
+	color: #0c6a55 !important;
+	font-weight: bold;
+}
+/*Item Estado */
+
+.list-group-item-estado {
+	background-color: #d41380 !important;
+	text-align: left;
+}
+a.list-group-item-estado {
+	color: #fff !important;
+	text-align: left;
+}
+.item-estado a{
+	color: #d41380 !important;
+	font-weight: bold;
+}
+
+/* Numero de Indicadores - ITEM */
+.numindi {
+	width: 100px;
+	margin-top: -5px;
+}
+.txtindicadores {
+	font-size: .8em;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+.numindicadores {
+	font-size: 1.5em;
+	float: right;
+	border-left: 1px #fff solid;
+	padding-left: 10px;
+}
+
+

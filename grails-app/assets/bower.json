@@ -1,0 +1,33 @@
+{
+  "name": "bower",
+  "version": "1.0",
+  "authors": [
+    "Colbert"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "src",
+    "node_modules",
+    "bower_components",
+    "less",
+    "test",
+    "grunt",
+    "package.json",
+    "package.js",
+    "_*",
+    "**/*.txt",
+    "docs-assets",
+    "examples",
+    "js/tests",
+    "LICENSE.txt",
+    "CONTRIBUTING.md",
+    "composer.json",
+    "*.html"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "bootstrap": "~3.3.4",
+    "datatables": "~1.10.7"
+  }
+}
