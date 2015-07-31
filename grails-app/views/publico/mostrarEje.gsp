@@ -17,12 +17,11 @@
         <li class="active">${eje?.nombre}</li>
     </ol>
 
-    <div class="row">
+    <div class="container-fluid">
         <div id="freewall">
-            <div class="col-md-12">
-                <div class="row masonry-grid">
+            <div class="row masonry-grid">
                     <g:each in="${temas}" var="tema">
-                        <div class="col-xs-12 col-sm-4 col-md-4 column">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
                             <div class="boxcaja1">
                                 <h4>${tema?.nombre}</h4>
                                 <ul class="list-group">
@@ -39,7 +38,6 @@
                         </div>
                     </g:each>
                 </div>
-            </div>
         </div>
     </div>
 </div>

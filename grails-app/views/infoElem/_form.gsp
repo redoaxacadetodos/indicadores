@@ -1,8 +1,8 @@
 <form id="modalForm" class="form-horizontal">
     <div class="form-group">
-        <label for="texto" class="col-sm-2 control-label">Texto</label>
+        <label for="texto" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Texto</label>
 
-        <div class="col-sm-10">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
             <textarea rows="8" cols="50" name="texto" id="texto" class="form-control"
                       required
                       data-fv-notempty-message="Requerido">
@@ -11,9 +11,9 @@
     </div>
 
     <div class="form-group">
-        <label for="href" class="col-sm-2 control-label">Liga</label>
+        <label for="href" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Liga</label>
 
-        <div class="col-sm-10">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
             <input type="text" name="href" id="href" class="form-control"
                    required
                    data-fv-notempty-message="Requerido"/>
@@ -21,9 +21,9 @@
     </div>
 
     <div class="form-group">
-        <label for="hrefLabel" class="col-sm-2 control-label">Etiqueta en la liga</label>
+        <label for="hrefLabel" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Etiqueta en la liga</label>
 
-        <div class="col-sm-10">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
             <input type="text" name="hrefLabel" id="hrefLabel" class="form-control"
                    required
                    data-fv-notempty-message="Requerido"/>
@@ -31,17 +31,17 @@
     </div>
 
     <div class="form-group">
-        <label for="abrirEnTab" class="col-sm-2 control-label">Abrir en pestaña</label>
+        <label for="abrirEnTab" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Abrir en pestaña</label>
 
-        <div class="col-sm-10">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
             <input type="checkbox" name="abrirEnTab" id="abrirEnTab" value="1"/>
         </div>
     </div>
 
     <div class="form-group">
-        <label class="col-sm-2 control-label">Imagen (400x400)</label>
+        <label class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Imagen (400x400)</label>
 
-        <div class="col-sm-10">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
             <input type="file" id="imagen" name="imagen" accept="image/*" class="form-control"
                    required
                    data-fv-notempty-message="Requerido"/>
@@ -49,9 +49,9 @@
     </div>
 
     <div class="form-group">
-        <label for="indice" class="col-sm-2 control-label">Indice</label>
+        <label for="indice" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Indice</label>
 
-        <div class="col-sm-2">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
             <input id="indice" type="number" min="1" class="form-control"
                    name="indice"
                    required

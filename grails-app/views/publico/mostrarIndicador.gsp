@@ -65,7 +65,7 @@
     <export:formats formats="['csv', 'excel', 'pdf']" controller="publico" action="descargarIndicadoresEnFormatos" params="[id:indicadorInstance?.id]"/>
 
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="panel panel-default">
                 <div class="panel-heading heading_${StringUtils.substringBefore(indicadorInstance.tema.eje.nombre, ' ')}">
                     <div class="pull-right margensocial">
@@ -95,7 +95,7 @@
                 <div class="panel-body">
                     <div class="row">
 
-                        <div class="col-md-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="chart_wrapper">
                                 <g:render template="grafica" model="${
                                     [indicadorInstance: indicadorInstance,
@@ -111,7 +111,7 @@
 
                     </div>
 
-                    <table class="table table-striped">
+                    <table class="table table-striped table-responsive">
                         <thead>
                         <tr>
                             <th rowspan="2" class="col_center">Metodo de cálculo</th>

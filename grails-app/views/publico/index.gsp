@@ -7,10 +7,10 @@
 </head>
 
 
-<body>
-    <section class="seccionSlider">
-        <div class="">
-           <div id="da-slider" class="da-slider">
+<body class="container">
+    <section class="  seccionSlider carousel slide" data-ride="carousel">
+        <div class="container">
+           <div id="da-slider" class="continer-fluid da-slider" style="width: 100% ">
 
                 <g:each in="${InfoElem.list(sort: 'indice')}" var="infoElem">
                     <div class="da-slide">

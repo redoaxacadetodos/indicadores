@@ -56,8 +56,8 @@
     <h1 class="page-header">Datos</h1>
 
     <div class="row">
-        <div class="col-lg-12">
-            <div id="list-datos" class="content scaffold-list" role="main">
+        <div class="container-fluid">
+            <div id="list-datos" class=" scaffold-list" role="main">
                 <button type="button" class="btn btn-primary" id="crear-button" data-target="#modal" data-toggle="modal">Nuevo</button>
                 <br/>
                 <br/>

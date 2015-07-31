@@ -5,15 +5,55 @@
 .col_center {
     text-align: center;
 }
+.navbar-toggle {
+	background-color: #2277b9;
+	border-radius: 3px;
+	margin-top: 18px;
+}
+
+section .tabs-conbox nav.navbar-default .container-fluid .navbar-header button.navbar-toggle:hover {
+	background-color: #298cdd;
+}
+section .tabs-conbox nav.navbar-default .container-fluid .navbar-header button.navbar-toggle:visited {
+	background-color: #298cdd;
+}
+.navbar-default .navbar-toggle .icon-bar  {
+	background-color: #ffffff;
+}
+
+section .tabs-conbox nav.navbar-default{
+	background-color: #ffffff;
+	border: none;
+}
+
+section .tabs-conbox nav.navbar-default .container-fluid .berg-collapse ul li{
+	max-width: 16.6%;
+	min-width: 16.5%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.icon-home{
+	color: #2277b9;
+}
+.inicio{
+	color: #2277b9;
+	font-weight: bold;
+}
+
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+
 .seccionSlider {
-	width: 1170px;
+	width: 100%;
 	background-color: #fff;
 	border-bottom: 1px solid #c6c6c6;
 	margin: 0 auto;	
 }
 .da-slider{
 	width: 100%;
-	min-width: 520px;
 	height: 400px;
 	position: relative;
 	margin: 0px auto;
@@ -326,6 +366,10 @@
 @keyframes fromRightAnim4{
 	0%{ left: 110%; opacity: 0; }
 	100%{ left: 60%; opacity: 1; }
+}
+.container-fluid, .col-lg-12, .col-md-12, .col-sm-12, .col-xs-12{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 /* Slide in from the left*/
 .da-slide-fromleft h2{
@@ -843,4 +887,15 @@ footer { padding: 20px 0; background-color: #333; position: absolute; bottom: 0;
 		width: 100%;
 		height: auto;
 	}
+}
+
+@media (max-width: 760px) {
+ section .tabs-conbox nav.navbar-default .container-fluid .berg-collapse ul li{
+   min-width: 49%;
+   text-align: center;
+   margin: 0 auto;
+   display: inline-flex;
+   vertical-align: middle;
+ }
+  
 }

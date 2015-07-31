@@ -59,12 +59,19 @@ a:hover, a:focus {
 
 /* Header */
 .cabecera {
-	height: 300px;
-	background: url(../img/cabecera.jpg);
-	background-position: bottom center;
-	background-repeat: no-repeat;
+	background:none;
+	/*background-position: bottom center;*/
+    /*background-repeat: no-repeat;*/
 	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
+
+.cabecera img {
+	text-align: center;
+	margin: 0 auto;
+}
+
 .codrops-header {
 	padding: 7em 0 3em;
 	letter-spacing: -1px;
@@ -330,8 +337,8 @@ p.codrops-demos a.current-demo:hover{
 	color: #fff;
 }
 
-/* Media Queries */
-@media screen and (max-width: 767px) {
+/* Media Queries
+@media screen and (max-width: 767px) and (min-width:50px) {
 	p.codrops-demos {
 		position: relative;
 		top: auto;
@@ -345,12 +352,13 @@ p.codrops-demos a.current-demo:hover{
 		width: auto;
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 400px) and (max-width: 991px) {
 	.cabecera {
 		height: 300px;
 		background: url(../img/cabecera3.jpg);
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		width: auto;
+		width: 100%;
 	}
 }
+ **/
