@@ -2,77 +2,93 @@
 <form id="modalForm" class="form-horizontal">
     <fieldset>
         <div class="form-group">
-            <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+            <div class="row">
+                <label for="nombre" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Nombre</label>
 
-            <div class="col-sm-10">
-                <input type="text" name="nombre" id="nombre" class="form-control"
-                       required
-                       data-fv-notempty-message="Requerido"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" name="nombre" id="nombre" class="form-control"
+                           required
+                           data-fv-notempty-message="Requerido"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="tituloGrafica" class="col-sm-2 control-label">Titulo de la gráfica</label>
+            <div class="row">
+                <label for="tituloGrafica" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Titulo de la gráfica</label>
 
-            <div class="col-sm-10">
-                <input type="text" name="tituloGrafica" id="tituloGrafica" class="form-control"
-                       required
-                       data-fv-notempty-message="Requerido"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" name="tituloGrafica" id="tituloGrafica" class="form-control"
+                           required
+                           data-fv-notempty-message="Requerido"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="metodoCalculo" class="col-sm-2 control-label">Metodo de cálculo</label>
+            <div class="row">
+                <label for="metodoCalculo" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Metodo de cálculo</label>
 
-            <div class="col-sm-10">
-                <input type="text" name="metodoCalculo" id="metodoCalculo" class="form-control"
-                       required
-                       data-fv-notempty-message="Requerido"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" name="metodoCalculo" id="metodoCalculo" class="form-control"
+                           required
+                           data-fv-notempty-message="Requerido"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="unidadMedida" class="col-sm-2 control-label">Unidad de medida</label>
+            <div class="row">
+                <label for="unidadMedida" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Unidad de medida</label>
 
-            <div class="col-sm-10">
-                <input type="text" name="unidadMedida" id="unidadMedida" class="form-control"
-                       required
-                       data-fv-notempty-message="Requerido"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" name="unidadMedida" id="unidadMedida" class="form-control"
+                           required
+                           data-fv-notempty-message="Requerido"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="sentido" class="col-sm-2 control-label">Sentido</label>
+            <div class="row">
+                <label for="sentido" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Sentido</label>
 
-            <div class="col-sm-10">
-                <g:select name="sentido" id="sentido" from="${['Ascendente', 'Descendente']}" class="form-control"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <g:select name="sentido" id="sentido" from="${['Ascendente', 'Descendente']}" class="form-control"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="unidadExpresion" class="col-sm-2 control-label">Unidad de expresión</label>
+            <div class="row">
+                <label for="unidadExpresion" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Unidad de expresión</label>
 
-            <div class="col-sm-10">
-                <g:select id="unidadExpresion" from="${['Acumulado', 'Promedio', 'Maximo Alcanzado', 'Valor Actual']}" class="form-control" name="unidadExpresion"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <g:select id="unidadExpresion" from="${['Acumulado', 'Promedio', 'Maximo Alcanzado', 'Valor Actual']}" class="form-control" name="unidadExpresion"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="fuente" class="col-sm-2 control-label">Fuente</label>
+            <div class="row">
+                <label for="fuente" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Fuente</label>
 
-            <div class="col-sm-10">
-                <input type="text" name="fuente" id="fuente" class="form-control"
-                       required
-                       data-fv-notempty-message="Requerido"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" name="fuente" id="fuente" class="form-control"
+                           required
+                           data-fv-notempty-message="Requerido"/>
+                </div>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="descripcion" class="col-sm-2 control-label">Descripción</label>
+            <div class="row">
+                <label for="descripcion" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Descripción</label>
 
-            <div class="col-sm-10">
-                <textarea rows="8" cols="50" name="descripcion" id="descripcion" class="form-control">
-                </textarea>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <textarea rows="8" cols="50" name="descripcion" id="descripcion" class="form-control">
+                    </textarea>
+                </div>
             </div>
         </div>
 
@@ -92,10 +108,12 @@
         %{--</div>--}%
 
         <div class="form-group">
-            <label for="Tema" class="col-sm-2 control-label">Tema</label>
+            <div class="row">
+                <label for="Tema" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Tema</label>
 
-            <div class="col-sm-10">
-                <g:select id="tema" name="tema.id" from="${Tema.list()}" optionKey="id" required="" class="many-to-one form-control"/>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <g:select id="tema" name="tema.id" from="${Tema.list()}" optionKey="id" required="" class="many-to-one form-control"/>
+                </div>
             </div>
         </div>
 

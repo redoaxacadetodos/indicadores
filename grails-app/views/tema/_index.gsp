@@ -31,7 +31,7 @@
     <h1 class="page-header">Temas</h1>
 
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div id="list-temas" class="content scaffold-list" role="main">
                 <button type="button" class="btn btn-primary" id="crear-button" data-target="#modal" data-toggle="modal">Nuevo</button>
                 <br/>

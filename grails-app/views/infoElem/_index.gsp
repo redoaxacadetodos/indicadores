@@ -137,19 +137,19 @@
     %{--<ii:imageTag indirect-imagename="Color de fondo para leer Adobe Reader.png"/>--}%
 
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div id="list-infoElem" class="content scaffold-list" role="main">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <button type="button" class="btn btn-primary" id="crear-button" data-target="#modal" data-toggle="modal">Nuevo</button>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                         <div class="form-group">
                             <form id="segundos-form">
-                                <label for="segundos" class="col-sm-4 control-label">Segundos entre imágenes</label>
+                                <label for="segundos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Segundos entre imágenes</label>
 
-                                <div class="col-sm-4">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                     <input id="segundos" type="number" min="1" class="form-control"
                                            name="segundos"
                                            required
@@ -159,7 +159,7 @@
                                            data-fv-digits-message="Solo numeros"/>
                                 </div>
 
-                                <div class="col-sm-4">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                     <button type="button" class="btn btn-primary" id="segundos-button">Guardar</button>
                                 </div>
                             </form>
