@@ -24,18 +24,20 @@
 
 <body>
 <div>
-    <div class="plecatop">
-        <div class="menuinicio">
-            <a href="#">Inicio</a>
+    <div class="container">
+        <div class="plecatop">
+            <div class="menuinicio">
+                <a href="#">Inicio</a>
+            </div>
         </div>
-    </div>
-    <div class="cabecera">
-        <img src="${resource(dir: 'images', file: 'cabecera.jpg')}" class="img-responsive">
-        %{--<div class="container">--}%
-            %{--<g:link controller="login">--}%
-                %{--<button type="button" class="btn btn-warning pull-right" id="crear-button">Administrador</button>--}%
-            %{--</g:link>--}%
-        %{--</div>--}%
+        <div class="cabecera">
+            <img src="${resource(dir: 'images', file: 'cabecera.jpg')}" class="img-responsive">
+            %{--<div class="container">--}%
+                %{--<g:link controller="login">--}%
+                    %{--<button type="button" class="btn btn-warning pull-right" id="crear-button">Administrador</button>--}%
+                %{--</g:link>--}%
+            %{--</div>--}%
+        </div>
     </div>
 
     <section>
