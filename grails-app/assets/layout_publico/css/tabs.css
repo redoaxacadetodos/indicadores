@@ -102,7 +102,7 @@
 .icon::before {
 	z-index: 10;
 	display: inline-block;
-	margin: 0 0.4em 0 0;
+	margin: 0 0 0 0;
 	vertical-align: middle;
 	text-transform: none;
 	font-weight: normal;
