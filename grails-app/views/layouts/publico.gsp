@@ -5,6 +5,7 @@
     <title>Gubernatura</title>
     <asset:stylesheet src="publico.css"/>
     <asset:javascript src="publico.js"/>
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
 
     <!--<link rel="stylesheet" href="${resource(dir: 'css', file: 'tabstyles.css')}"/>-->
 
