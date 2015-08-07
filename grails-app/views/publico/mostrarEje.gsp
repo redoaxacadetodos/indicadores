@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8" name="publico">
     <title>Gubernatura del Estado - Indicadores</title>
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
 </head>
 
 <body>
