@@ -45,7 +45,7 @@
                            class="list-group-item list-group-item-${Ascii.quitarAcentos(StringUtils.substringBefore(info.eje.nombre, ' ').toLowerCase())}" data-toggle="collapse"
                            data-parent="#MainMenu">
 
-                            <i class="icon icon-${Ascii.quitarAcentos(StringUtils.substringBefore(info.eje.nombre, ' ').toLowerCase())}2"></i>${info.eje.nombre}
+                            <i class="icon icon-${Ascii.quitarAcentos(StringUtils.substringBefore(info.eje.nombre, ' ').toLowerCase())}2"></i>&nbsp;&nbsp;&nbsp;${info.eje.nombre}
                             <div class="numindi pull-right">
                                 <div class="numindicadores">${info.indicadores.size() < 10 ? '0' + info.indicadores.size() : info.indicadores.size()}</div>
 
